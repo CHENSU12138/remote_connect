@@ -21,7 +21,7 @@ f_value = sheet.cell(row=row_num, column=6).value
 sentence = f'docker run -dit --gpus all --name {a_value} -p {b_value}:6006 -p {c_value}:22 -p {d_value}:8888 -v ~/ws4/{e_value}:/workspace {f_value}'
 
 # 将句子写入 Excel 文件的指定位置
-sheet.cell(row=row_num, column=8).value = sentence
+sheet.cell(row=row_num, column=9).value = sentence
 
 # 保存 Excel 文件
 workbook.save('./Server configuration.xlsx')

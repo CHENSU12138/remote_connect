@@ -4,6 +4,7 @@
 
 ## 进入容器
 - docker exec -it  (容器id)   /bin/bash
+- 
 
 ## 安装工具
 - apt -y update
