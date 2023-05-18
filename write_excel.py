@@ -7,7 +7,7 @@ workbook = openpyxl.load_workbook('./Server configuration.xlsx')
 sheet = workbook.active
 
 # 选择要读取的行数
-row_num = 5
+row_num = 6
 
 # 读取指定行的单元格内容
 a_value = sheet.cell(row=row_num, column=1).value

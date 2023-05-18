@@ -10,7 +10,6 @@
 - apt -y update
 - apt install -y wget
 - wget https://github.com/CHENSU12138/remote_connect/blob/master/install_tool.sh
-- wget https://github.com/CHENSU12138/remote_connect/blob/master/jupyter_set.sh
 - wget -O install_tool.sh "https://www.dropbox.com/s/2obv1nz8zo8wzkt/install_tool.sh?dl=1"
 - wget -O install_tool.sh "https://www.dropbox.com/s/144e53brrfq7ja6/jupyter_set.sh?dl=1" (jupyter,有问题)
 ## tensorboard 使用

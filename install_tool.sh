@@ -8,6 +8,7 @@ apt install -y git vim openssh-server
 echo "root:1234" | chpasswd
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 service ssh restart
+
 #编辑Jupyter配置文件以允许远程访问
 pip install jupyter
 jupyter notebook --generate-config --allow-root
